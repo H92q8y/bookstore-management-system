@@ -1,9 +1,11 @@
 # Bookstore Management System
-A desktop application for managing a bookstore, built with Java, JavaFX, Maven, and MySQL.
+
+A desktop bookstore management application built with Java, JavaFX, Maven, and MySQL.
 
 ## Features
-- User authentication with Admin and User roles
+- Admin and user authentication
 - Book management
+- User management
 - MySQL database integration
 
 ## Technologies
@@ -12,9 +14,15 @@ A desktop application for managing a bookstore, built with Java, JavaFX, Maven, 
 - Maven
 - MySQL
 
-## Demo Accounts
-The application includes demo accounts for testing the user and admin roles.
-See `src/main/resources/bookstore.sql` for the sample credentials.
+## Setup
+1. Run `src/main/resources/bookstore.sql` in MySQL Workbench to create the database and sample data.
+2. Set the environment variables:
+   - `BOOKSTORE_DB_USER` — MySQL username
+   - `BOOKSTORE_DB_PASSWORD` — MySQL password
+3. Run the application using IntelliJ IDEA or Maven.
 
-## Notes
-This project was developed as a Continuous Assessment (CA) for a university module
+## Demo Accounts
+Sample login credentials are provided in `src/main/resources/bookstore.sql`.
+
+## Note
+Developed as a university Continuous Assessment (CA) project.
