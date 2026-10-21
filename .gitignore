@@ -1,0 +1,30 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Maven and compiled files
+target/
+out/
+*.class
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local.properties
+application-local.properties
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Database backups and archives
+*.dump
+*.bak
+*.backup
+*.7z

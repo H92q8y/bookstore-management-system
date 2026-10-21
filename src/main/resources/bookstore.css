@@ -1,0 +1,21 @@
+.root {
+    -fx-background-color: aliceblue;
+    -fx-font-family: "Arial";
+    -fx-font-size: 13pt;
+}
+
+.label {
+    -fx-text-fill: darkblue;
+}
+
+.button {
+    -fx-background-color: lightsteelblue;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.text-field,
+.password-field {
+    -fx-border-color: darkgray;
+    -fx-border-width: 2px;
+}
